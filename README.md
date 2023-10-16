@@ -2,18 +2,35 @@
 
 ## modificación de clase
 
-1) git clone -o pruebasReadme https://github.com/danielcastelao/pruebasReadme.git
 
-2) cd pruebasReadme
+1) En consola nos posicionamos en la carpeta donde queremos copiar el directorio
 
-3) git remote add origin https://github.com/LuciaPosada/Clonado2.git
+Ej: cd COD
 
-4) git remote -v
+2) Se copia la url del repositorio en github
 
-5) git add README.md
+3) En consola se utiliza: git clone -o (nombre repositorio) (url del repositorio a clonar)
 
-6) git commit -m "cambios en el readme"
+Ej:  git clone -o pruebasReadme https://github.com/danielcastelao/pruebasReadme.git
 
-7) git brach -M main
+4) En consola nos posicionamos dentro del repositorio que acabamos de clonar
 
-8) git push -u origin main
+Ej: cd pruebasReadme
+
+5) Se utiliza: git remote add origin (url del repositorio donde se quiere agragar el repositorio clonado)
+
+Ej: git remote add origin https://github.com/LuciaPosada/Clonado2.git
+
+6) Se utiliza el comando: git remote -v
+
+7) Se realizan los cambios que se quieran realizar al repositorio
+
+8) Se utilizan los comandos:
+
+git add (README.md)
+
+git commit -m ("cambios en el readme")
+
+git brach -M main
+
+git push -u origin main
